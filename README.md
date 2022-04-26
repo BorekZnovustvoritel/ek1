@@ -31,7 +31,7 @@ Pokud zakládáte dlouhodobější projekt, proveďte následující krok:
 - Zkopírujte git hash nejnovějšího commitu na GitHubu
 - Vložte jej na třetí řádek v `shared.tex`
 
-![Git hash commitu](images/github-commit-hash.png)
+Git hash commitu
 
 Takto budete mít lepší přehled o verzi vašeho `shared.tex` a budou se vám lépe kontrolovat aktualizace.
 
