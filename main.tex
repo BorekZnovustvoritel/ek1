@@ -1,0 +1,54 @@
+% Povinný argument: Kód předmětu
+\newcommand{\subject}{BPC-IC1}
+% Povinný argument: Název předmětu
+\newcommand{\subjectname}{Otázky 2022}
+% Povinný argument: Seznam autorů
+\newcommand{\authors}{Piesek komputerowy}
+% Povinný argument: Seznam korektorů
+\newcommand{\corrections}{Nigdo}
+% Nepovinný argument: Cílová skupina dokumentu
+\newcommand{\docgroup}{Informační bezpečnost, FEKT VUT}
+
+% Přepsáním argumentu na 'false' vypnete balíček 'minted' pro sázení kódu.
+% Pro jeho použití lokálně musíte mít v systému dostupný Python 3, python
+% knihovnu 'minted' a PDFLaTeX musíte spouštět s argumentem '-shell-escape'.
+% Místo něj můžete použít prostředí 'lstlisting'.
+\newcommand{\docminted}{true}
+
+\input{shared}
+\usepackage{mdframed}
+
+\begin{document}
+
+\titulka{}
+
+\tableofcontents
+\thispagestyle{empty}
+
+\setcounter{page}{0}
+
+\include{text/01}
+\include{text/02}
+\include{text/03}
+\include{text/04}
+\include{text/05}
+\include{text/06}
+\include{text/07}
+\include{text/08}
+\include{text/09}
+\include{text/10}
+\include{text/11}
+\include{text/12}
+\include{text/13}
+\include{text/14}
+\include{text/15}
+\include{text/16}
+\include{text/17}
+\include{text/18}
+\include{text/19}
+\include{text/20}
+\include{text/21}
+\include{text/22}
+\include{text/23}
+
+\end{document}
